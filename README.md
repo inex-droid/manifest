@@ -1,32 +1,34 @@
-# Pixel Experience #
+# InexDroid #
 
 ### Sync ###
 
-```bash
-
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b thirteen-plus
+```bash
+repo init -u https://github.com/inex-droid/manifest -b tea
+```
 
 # Sync
+```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Build ###
 
-```bash
-
 # Set up environment
-$ . build/envsetup.sh
-
-# Choose a target
-$ lunch aosp_$device-userdebug
-
-# Build the code
-$ mka bacon -jX
+```bash
+. build/envsetup.sh
 ```
 
-### Submitting Patches ###
+# Choose a target
+```bash
+lunch aosp_$device-userdebug
+```
 
-Patches are always welcome! Please submit your patches to our Gerrit.
+# Build the code
+```bash
+mka bacon
+```
 
-[Gerrit push guide](https://wiki.pixelexperience.org/help/submit-patch/)
+### Credits ###
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**SkylineUI**](https://github.com/SkylineUI)
