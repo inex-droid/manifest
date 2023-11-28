@@ -32,7 +32,7 @@
           revision="aosp-13" />
 
   <remote name="id"
-          fetch="https://github.com/inex-droid"
+          fetch="https://github.com/inexdroid"
           revision="tea" />
 
   <!-- External repos -->

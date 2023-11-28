@@ -17,13 +17,13 @@ To do that, run these commands:
 To initialize your local repository, run this command:
 ------------------------------------------------------
 ```bash
-repo init -u https://github.com/inex-droid/manifest -b tea
+repo init -u https://github.com/inexdroid/manifest -b tea
 ```
 
 To save bandwith and space, run this command:
 ------------------------------------------------------
 ```bash
-repo init --depth=1 --no-repo-verify -u https://github.com/inex-droid/manifest -b tea -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/inexdroid/manifest -b tea -g default,-mips,-darwin,-notdefault
 ```
 
 Afterwards, sync the source by running this command:
@@ -50,5 +50,6 @@ mka bacon
 ```
 ------------------------------------------------------
 :dove: Credits:
+ * [**crdroid**](https://github.com/crdroidandroid)
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**SkylineUI**](https://github.com/SkylineUI)
